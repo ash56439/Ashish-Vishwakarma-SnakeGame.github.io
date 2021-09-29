@@ -1,0 +1,61 @@
+body{
+    background: url("/bg.jpg")
+}
+
+.grid{
+    
+        width: 200px;
+        height: 200px;
+        border: 2px solid red;
+        margin: 0 auto;
+        display:flex;
+        /* in the CSS , the grid  which is the gameboard has 
+    a set dimension  and a display of flex . 
+    this  allows the contents  */
+        flex-wrap:wrap;
+        
+        /* flex-wrap property simply moves the divs
+        to the next line ,preventing them from going 
+        past the set dimension of their parent element
+        (grid); */
+    }
+
+    .grid div{
+        width: 20px;
+        height: 20px;
+
+        /* .grid div is used for give a width and  */
+        /* height here  */
+
+    }
+
+    .snake{
+        background: blue;
+    }
+
+    .apple{
+        background:yellow;
+        border-radius: 20px;
+    }
+
+      /* snake and apple classes are to show us
+      where the snake and bonus is on the 
+        game  */
+
+    .popup{
+        background: rgb(32, 31 , 31);
+        width: 100px;
+        height: 100px;
+        position:fixed;
+        top:100px;
+        left:100px;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+
+        /* .popup  class is a fixed div that houses the 
+         replay div . */
+
+    }
+
+    
