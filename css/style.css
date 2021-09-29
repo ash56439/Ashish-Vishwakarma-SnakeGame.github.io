@@ -1,5 +1,6 @@
 body{
-    backgroud : greenyellow;
+    backgroud-color : greenyellow;
+    background-size: cover;
 }
 
 .grid{
