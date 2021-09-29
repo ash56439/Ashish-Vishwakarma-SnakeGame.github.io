@@ -1,5 +1,5 @@
 body{
-    backgroud-color: green;
+    backgroud : url("/img/bg.jpg")
 }
 
 .grid{
